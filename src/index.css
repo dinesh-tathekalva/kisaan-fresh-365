@@ -15,3 +15,13 @@ body {
   font-size: 2em;
   font-weight: 300 !important;
 }
+
+.mainTitle{
+  font-size: 2.5em;
+  font-weight: 400 !important;
+}
+
+.phoneFont{
+  font-size: 1.5em;
+  font-weight: 300 !important;
+}
