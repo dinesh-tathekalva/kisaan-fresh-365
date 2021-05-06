@@ -22,7 +22,7 @@ export default function MainContainer() {
                         <KCard image={Whatsapp} title={"Place your orders easily on Whatsapp"} content={"You can find our catalogue to place order."} subTitle={"Whatsapp number: +91 9493233615"}/>
                     </div>
                     <div class="col-md-4">
-                        <KCard image={VeggiesPortrait} title={"Explore our vast catalogue"} content={"Pick your vegetables from our vast catalogue."} />
+                        <KCard image={VeggiesPortrait} title={"Explore our vast catalog"} content={"Pick your vegetables from our vast catalog."} showBtn={true} />
                     </div>
                     <div class="col-md-4">
                         <KCard image={Delivery} title={"Delivery on sameday"} content={"We will deliver to your doorstep in 3 hours."} />
