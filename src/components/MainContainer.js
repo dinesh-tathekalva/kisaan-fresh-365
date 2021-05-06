@@ -19,7 +19,7 @@ export default function MainContainer() {
                 <p className="text-center mt-5 mb-5 font-weight-light headingFontsize">Grocery delivery you can count on</p>
                 <div class="row">
                     <div class="col-md-4">
-                        <KCard image={Whatsapp} title={"Place your orders easily"} content={"You can place your order on the Whatsapp."} />
+                        <KCard image={Whatsapp} title={"Place your orders easily on Whatsapp"} content={"You can find our catalogue to place order."} subTitle={"Whatsapp number: +91 9493233615"}/>
                     </div>
                     <div class="col-md-4">
                         <KCard image={VeggiesPortrait} title={"Explore our vast catalogue"} content={"Pick your vegetables from our vast catalogue."} />
