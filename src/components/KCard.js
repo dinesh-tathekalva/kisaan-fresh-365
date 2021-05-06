@@ -14,7 +14,7 @@ const KCard = (props) => {
                     <CardTitle tag="h5">{title}</CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">{subTitle}</CardSubtitle>
                     <CardText>{content}</CardText>
-                    {showBtn && <Button onClick={(e) => {
+                    {showBtn && <Button className="text-center" onClick={(e) => {
                         e.preventDefault();
                         window.location.href = 'https://wa.me/c/919493233615';
                     }}>Catalog</Button>}
