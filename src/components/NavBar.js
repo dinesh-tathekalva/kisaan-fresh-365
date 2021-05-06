@@ -22,7 +22,7 @@ const NavBar = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Kissan Fresh 365</NavbarBrand>
+        <NavbarBrand href="/">Kisaan Fresh 365</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
