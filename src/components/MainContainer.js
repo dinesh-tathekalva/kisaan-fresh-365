@@ -8,9 +8,9 @@ import KCard from "./KCard"
 import VeggiesPortrait from '../images/VeggiesPortrait.jpeg'
 import Whatsapp from '../images/Whatsapp.jpeg'
 import Delivery from '../images/Delivery.jpeg'
-import ItemList from './ItemList';
 import data from '../data.js'
-
+// import ItemList from './ItemList';
+// import { Button } from 'reactstrap';
 
 export default function MainContainer() {
     console.log(data.vegetables);
@@ -34,16 +34,40 @@ export default function MainContainer() {
 
                 <p className="mt-5 mb-5 font-weight-light headingFontsize">Start adding your items to the order below</p>
                 {/* <CategoryList /> */}
-                
-                <div className="row ">
-                    {data.items.map((veggie, id) => {
-                    return (<div className="col-lg-3 text-center mb-2" key={veggie.id}>
-                        <ItemList title={veggie.name} image={veggie.imageUrl}/>
-                    </div>)
-                    })}
-                </div>
+                {/* <Container className="d-flex">
+                    <div className="mb-5 mr-3 position">
+                        <Button outline color="primary" className="margin ">Vegetables </Button>
+                        <Button outline color="primary" className="margin ">Fruits </Button>
+                        <Button outline color="primary" className="margin ">Groceries </Button>
+                        <Button outline color="primary" className="margin ">Other </ Button>
+                    </div>
+                    <div className="row ml-3">
+                        {data.items.map((veggie, id) => {
+                            return (<div className="col-lg-3 text-center mb-4" key={veggie.id}>
+                                <ItemList title={veggie.name} image={veggie.imageUrl} />
+                            </div>)
+                        })}
+                    </div>
+                </Container> */}
 
             </Container>
+            {/* <Container className="d-flex">
+                <div className="mb-5 mr-3 position d-flex flex-column">
+                    <Button outline color="primary" className="margin ">Vegetables </Button>
+                    <Button outline color="primary" className="margin ">Fruits </Button>
+                    <Button outline color="primary" className="margin ">Groceries </Button>
+                    <Button outline color="primary" className="margin ">Other </ Button>
+                </div>
+                <div className="row ml-3">
+                    {data.items.map((veggie, id) => {
+                        return (<div className="col-lg-3 text-center mb-4" key={veggie.id}>
+                            <ItemList title={veggie.name} image={veggie.imageUrl} />
+                        </div>)
+                    })}
+                </div>
+            </Container> */}
+
+
         </div>
     )
 }

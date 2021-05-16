@@ -29,3 +29,24 @@ body {
   max-width: 12em;
   /* max-height: 15em; */
 }
+
+.quantityInput{
+  max-width: 5em;
+}
+
+.margin{
+  margin-bottom: 2em;
+  margin-right: 2em;
+  width: 9em;
+}
+
+.position{
+  position: fixed;
+  /* width: 600px; */
+  /* height: 200px; */
+  /* left: 10%; */
+  top: 50%;
+  
+  left: 5%;
+  /* margin-left: -300px; */
+}
