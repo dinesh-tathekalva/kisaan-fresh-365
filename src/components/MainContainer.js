@@ -32,7 +32,7 @@ export default function MainContainer() {
                     </div>
                 </div>
 
-                <p className="mt-5 mb-5 font-weight-light headingFontsize">Start adding your items to the order below</p>
+                {/* <p className="mt-5 mb-5 font-weight-light headingFontsize">Start adding your items to the order below</p> */}
                 {/* <CategoryList /> */}
                 {/* <Container className="d-flex">
                     <div className="mb-5 mr-3 position">
