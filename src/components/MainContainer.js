@@ -8,7 +8,7 @@ import KCard from "./KCard"
 import VeggiesPortrait from '../images/VeggiesPortrait.jpeg'
 import Whatsapp from '../images/Whatsapp.jpeg'
 import Delivery from '../images/Delivery.jpeg'
-import ItemList from './ItemList';
+// import ItemList from './ItemList';
 import data from '../data.js'
 
 
@@ -32,16 +32,16 @@ export default function MainContainer() {
                     </div>
                 </div>
 
-                <p className="mt-5 mb-5 font-weight-light headingFontsize">Start adding your items to the order below</p>
+                {/* <p className="mt-5 mb-5 font-weight-light headingFontsize">Start adding your items to the order below</p> */}
                 {/* <CategoryList /> */}
                 
-                <div className="row ">
+                {/* <div className="row ">
                     {data.items.map((veggie, id) => {
                     return (<div className="col-lg-3 text-center mb-2" key={veggie.id}>
                         <ItemList title={veggie.name} image={veggie.imageUrl}/>
                     </div>)
                     })}
-                </div>
+                </div> */}
 
             </Container>
         </div>
