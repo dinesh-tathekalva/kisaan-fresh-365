@@ -19,7 +19,7 @@ const NavBar = (props) => {
                 <NavbarBrand href="/"><p className="mainTitle">Kisaan Fresh 365</p></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
-                    <NavbarText><span class="fas fa-camera"></span> <a className="phoneFont" href='https://wa.me/c/919493233615' role="button">+91 9493233615</a></NavbarText>
+                    <NavbarText><span className="fas fa-camera"></span> <a className="phoneFont" href='https://wa.me/c/919493233615' role="button">+91 9493233615</a></NavbarText>
                 </Collapse>
             </Navbar>
         </div>

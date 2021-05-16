@@ -25,3 +25,7 @@ body {
   font-size: 1.5em;
   font-weight: 300 !important;
 }
+.itemCardWidth{
+  max-width: 12em;
+  /* max-height: 15em; */
+}
