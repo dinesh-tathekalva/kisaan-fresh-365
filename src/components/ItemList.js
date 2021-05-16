@@ -6,7 +6,7 @@ const ItemList = (props) => {
     return (
         <ListGroup className="mb-1">
             <ListGroupItem className="d-flex">
-                <img width="30%" height="30%" src={image} alt=" cap" />
+                <img className="" width="30%" height="30%" src={image} alt={title} />
                 <CardBody>
                     <CardTitle tag="h5">{title}</CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">1 KG</CardSubtitle>

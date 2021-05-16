@@ -13,7 +13,7 @@ let data = {
             "selected": false,
             "available": true,
             "id": 1,
-            "imageUrl": {onion}
+            "imageUrl": "https://raw.githubusercontent.com/dinesh-tathekalva/kisaan-fresh-365/dev/src/images/items/onion.jpeg"
         },
         {
             "name": "tomato",
@@ -25,7 +25,8 @@ let data = {
             "quantity": 1,
             "selected": false,
             "available": true,
-            "id": 2
+            "id": 2,
+            "imageUrl": "https://raw.githubusercontent.com/dinesh-tathekalva/kisaan-fresh-365/dev/src/images/items/tomato.jpeg"
         },
         {
             "name": "beans",
@@ -37,7 +38,8 @@ let data = {
             "quantity": 1,
             "selected": false,
             "available": true,
-            "id": 3
+            "id": 3,
+            "imageUrl": "https://raw.githubusercontent.com/dinesh-tathekalva/kisaan-fresh-365/dev/src/images/items/beans.jpeg"
         },
         {
             "name": "carrot",
@@ -49,10 +51,11 @@ let data = {
             "quantity": 1,
             "selected": false,
             "available": true,
-            "id": 4
+            "id": 4,
+            "imageUrl": "https://raw.githubusercontent.com/dinesh-tathekalva/kisaan-fresh-365/dev/src/images/items/carrot.jpeg"
         },
         {
-            "name": "cilatro",
+            "name": "cilantro",
             "category": {
                 "categoryName": "vegetable",
                 "categoryId": 1
@@ -61,7 +64,8 @@ let data = {
             "quantity": 1,
             "selected": false,
             "available": true,
-            "id": 5
+            "id": 5,
+            "imageUrl": "https://raw.githubusercontent.com/dinesh-tathekalva/kisaan-fresh-365/dev/src/images/items/cilantro.jpeg"
         },
         {
             "name": "brinjal",
@@ -73,7 +77,21 @@ let data = {
             "quantity": 1,
             "selected": false,
             "available": true,
-            "id": 6
+            "id": 6,
+            "imageUrl": "https://raw.githubusercontent.com/dinesh-tathekalva/kisaan-fresh-365/dev/src/images/items/brinjal.png"
+        },
+        {
+            "name": "potato",
+            "category": {
+                "categoryName": "vegetable",
+                "categoryId": 1
+            },
+            "price": 15,
+            "quantity": 1,
+            "selected": false,
+            "available": true,
+            "id": 7,
+            "imageUrl": "https://raw.githubusercontent.com/dinesh-tathekalva/kisaan-fresh-365/dev/src/images/items/potato.png"
         }
     ]
 };
