@@ -78,7 +78,7 @@ let data = {
             "selected": false,
             "available": true,
             "id": 6,
-            "imageUrl": "https://raw.githubusercontent.com/dinesh-tathekalva/kisaan-fresh-365/dev/src/images/items/brinjal.png"
+            "imageUrl": "https://raw.githubusercontent.com/dinesh-tathekalva/kisaan-fresh-365/dev/src/images/items/brinjal.jpeg"
         },
         {
             "name": "potato",
@@ -91,7 +91,7 @@ let data = {
             "selected": false,
             "available": true,
             "id": 7,
-            "imageUrl": "https://raw.githubusercontent.com/dinesh-tathekalva/kisaan-fresh-365/dev/src/images/items/potato.png"
+            "imageUrl": "https://raw.githubusercontent.com/dinesh-tathekalva/kisaan-fresh-365/dev/src/images/items/potato.jpeg"
         }
     ]
 };
